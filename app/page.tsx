@@ -9,7 +9,7 @@ export default function Home() {
         <header className="flex flex-col items-center text-center mb-12">
           <div className="mb-6">
             <img
-              src="https://github.com/jonathanlukas19/mah-jongg-landing/blob/main/public/FD48E9DE-52A4-4D57-B01B-D6DEEE63F9DA.png"
+              src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
               className="w-104 h-104 md:w-112 md:h-112 mx-auto"
             />
