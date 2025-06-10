@@ -11,7 +11,7 @@ export default function Home() {
             <img
               src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
-              className="w-35 h-35 md:w-40 md:h-40 mx-auto"
+              className="w-40 h-40 md:w-45 md:h-45 mx-auto"
             />
           </div>
           <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds Lounge</h1>
