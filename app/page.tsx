@@ -28,7 +28,7 @@ export default function Home() {
                 className="bg-emerald-700 hover:bg-emerald-800 text-white rounded-full px-8 py-6 text-lg"
                 asChild
               >
-                <Link href="mailto:hello@tileandtable.com" className="flex items-center gap-2">
+                <Link href="amylukas@fourwindslounge.com" className="flex items-center gap-2">
                   <Mail className="h-5 w-5" />
                   Let's Connect
                 </Link>
