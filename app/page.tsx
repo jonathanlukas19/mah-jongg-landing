@@ -37,9 +37,8 @@ export default function Home() {
           </section>
 
           <section className="text-center">
-            <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-6">Follow Our Journey</h2>
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-6">Follow us on social media!</h2>
             <p className="text-lg text-gray-700 mb-8">
-              Follow us on social media!
             </p>
 
             <div className="flex justify-center gap-6">
