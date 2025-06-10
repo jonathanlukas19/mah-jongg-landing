@@ -21,8 +21,6 @@ export default function Home() {
           <section className="mb-16 text-center">
             <div className="max-w-2xl mx-auto">
               <p className="text-lg md:text-xl text-gray-700 mb-8">
-                We host beginner-friendly Mah Jongg socials in your area, creating a space where players of all levels
-                can learn, connect, and enjoy this timeless game together.
               </p>
 
               <Button
