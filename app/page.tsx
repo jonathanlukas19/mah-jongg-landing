@@ -71,7 +71,7 @@ export default function Home() {
         </main>
 
         <footer className="mt-20 pt-8 border-t border-emerald-100 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Tile & Table. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Four Winds Lounge. All rights reserved.</p>
         </footer>
       </div>
     </div>
