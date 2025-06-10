@@ -39,7 +39,7 @@ export default function Home() {
           <section className="text-center">
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-6">Follow Our Journey</h2>
             <p className="text-lg text-gray-700 mb-8">
-              Join us on social media for the latest games, tips, and Mah Jongg magic!
+              Follow us on social media!
             </p>
 
             <div className="flex justify-center gap-6">
