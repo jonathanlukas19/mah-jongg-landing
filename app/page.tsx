@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#F8F0DB]">
       <div className="container mx-auto px-4 py-8 md:py-16 max-w-5xl">
         <header className="flex flex-col items-center text-center mb-12">
           <div className="mb-6">
