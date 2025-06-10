@@ -12,6 +12,10 @@ export default function Home() {
               src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
               className="w-104 h-104 md:w-112 md:h-112 mx-auto"
+              style={{
+              filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)',
+              mixBlendMode: 'multiply'
+              }}
             />
           </div>
           <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds Lounge</h1>
