@@ -13,8 +13,7 @@ export default function Home() {
               alt="Four Winds Lounge Logo"
               className="w-104 h-104 md:w-112 md:h-112 mx-auto"
               style={{
-              filter: 'brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)',
-              mixBlendMode: 'multiply'
+              mixBlendMode: "multiply"
               }}
             />
           </div>
