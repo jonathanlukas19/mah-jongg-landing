@@ -11,7 +11,7 @@ export default function Home() {
             <img
               src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
-              className="w-48 h-48 md:w-56 md:h-56 mx-auto"
+              className="w-56 h-56 md:w-64 md:h-64 mx-auto"
             />
           </div>
           <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds Lounge</h1>
@@ -44,7 +44,7 @@ export default function Home() {
 
             <div className="flex justify-center gap-6">
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/fourwindslounge_wi/profilecard/?igsh=MW9sZjV5ZXV2dGszNA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-2 p-4 rounded-xl hover:bg-emerald-50 transition-colors"
@@ -56,7 +56,7 @@ export default function Home() {
               </Link>
 
               <Link
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/g/17rQxJReHE/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-2 p-4 rounded-xl hover:bg-emerald-50 transition-colors"
