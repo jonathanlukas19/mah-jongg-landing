@@ -17,13 +17,13 @@ export default function Home() {
               }}
             />
           </div>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-gray-900 mb-2">Four Winds, One Passion... Mah Jongg</h1>
+          <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds, One Passion... Mah Jongg</h1>
         </header>
 
         <main>
           <section className="mb-16 text-center">
             <div className="max-w-2xl mx-auto">
-              <p className="text-lg md:text-xl text-emerald-800 mb-8">
+              <p className="text-lg md:text-xl text-gray-900 mb-8">
               Learn the game that is sweeping the nation!  Connect with us for lessons and events throughout Wisconsin and Northern IL.  We have more than 16 years of combined experience in training beginners to experienced players.  As certified Mah Jongg instructors, we have helped countless students learn the game while promoting social engagement and strengthening cognitive skills.
               </p>
 
