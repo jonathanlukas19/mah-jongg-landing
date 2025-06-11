@@ -35,7 +35,7 @@ export default function Home() {
               >
                 <Link href="mailto:amylukas@fourwindslounge.com" className="flex items-center gap-2">
                   <Mail className="h-5 w-5" />
-                  Let's Connect
+                  Contact Us!
                 </Link>
               </Button>
             </div>
