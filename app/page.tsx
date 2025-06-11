@@ -17,7 +17,7 @@ export default function Home() {
               }}
             />
           </div>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds Lounge</h1>
+          <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800 mb-2">Four Winds, One Passion... Mah Jongg</h1>
         </header>
 
         <main>
