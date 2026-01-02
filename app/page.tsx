@@ -56,7 +56,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                   >
                     <CreditCard className="h-5 w-5" />
-                    Payment Link
+                    Registration Link
                   </Link>
                 </Button>
               </div>
