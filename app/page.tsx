@@ -50,7 +50,7 @@ export default function Home() {
                   asChild
                 >
                   <Link
-                    href="https://www.venmo.com/u/Fourwindslounge"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfFMjS5vwMmI1xV2lEqtR863OOjnFmbB-ab1yiYEKP2UYhNcQ/viewform?usp=sharing&ouid=103279560988399266284"
                     className="flex items-center gap-2"
                     target="_blank"
                     rel="noopener noreferrer"
