@@ -5,6 +5,31 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#F8F0DB]">
+      <nav className="bg-emerald-800 text-white sticky top-0 z-50 shadow-md">
+        <div className="container mx-auto px-4 py-4 max-w-5xl">
+          <div className="flex justify-center gap-6 flex-wrap">
+            <Link href="/small-group-lessons" className="hover:text-emerald-200 transition-colors">
+              Small Group Lessons
+            </Link>
+            <Link href="/registration" className="hover:text-emerald-200 transition-colors">
+              Registration
+            </Link>
+            <Link href="/merchandise" className="hover:text-emerald-200 transition-colors">
+              Merchandise
+            </Link>
+            <Link href="/gift-certificates" className="hover:text-emerald-200 transition-colors">
+              Gift Certificates
+            </Link>
+            <Link href="/events" className="hover:text-emerald-200 transition-colors">
+              Events
+            </Link>
+            <Link href="/about" className="hover:text-emerald-200 transition-colors">
+              About the FWL Team
+            </Link>
+          </div>
+        </div>
+      </nav>
+
       <div className="container mx-auto px-4 py-8 md:py-16 max-w-5xl">
         <header className="flex flex-col items-center text-center mb-12">
           <div className="mb-6">
@@ -32,7 +57,7 @@ export default function Home() {
                 promoting social engagement and strengthening cognitive skills.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
                 <Button
                   size="lg"
                   className="bg-emerald-700 hover:bg-emerald-800 text-white rounded-full px-8 py-6 text-lg"
@@ -50,7 +75,7 @@ export default function Home() {
                   asChild
                 >
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfFMjS5vwMmI1xV2lEqtR863OOjnFmbB-ab1yiYEKP2UYhNcQ/viewform?usp=sharing&ouid=103279560988399266284"
+                    href="https://www.venmo.com/u/Fourwindslounge"
                     className="flex items-center gap-2"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -67,7 +92,6 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-6">
               Follow us on social media!
             </h2>
-            <p className="text-lg text-gray-700 mb-8"></p>
 
             <div className="flex justify-center gap-6">
               <Link
