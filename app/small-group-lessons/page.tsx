@@ -58,7 +58,7 @@ export default function SmallGroupLessons() {
               </p>
               <p>
                 Kitty and Amy, co-founders of the Four Winds Lounge, began teaching Mah Jongg informally to family and
-                friends years ago. With a deep understanding of the game drawn from their combined 16 years of
+                friends years ago. With a deep understanding of the game drawn from their combined 18 years of
                 experience playing Mah Jongg, Kitty and Amy went on to become certified Mah Jongg instructors to ensure
                 students learn the intricacies of the game quickly and thoroughly. Our eight-hour curriculum is built to
                 provide a solid understanding of all facets of this centuries-old game. Four Winds Lounge can also
