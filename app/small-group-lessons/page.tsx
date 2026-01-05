@@ -19,7 +19,7 @@ export default function SmallGroupLessons() {
               Gift Certificates
             </Link>
             <Link href="/events" className="hover:text-emerald-200 transition-colors">
-              Events
+              Corporate/Club Events
             </Link>
             <Link href="/about" className="hover:text-emerald-200 transition-colors">
               About the FWL Team
