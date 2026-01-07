@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { Mail, Instagram, Facebook, CreditCard } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Instagram, Facebook } from "lucide-react"
 
 export default function Home() {
   return (
@@ -21,7 +20,7 @@ export default function Home() {
               Gift Certificates
             </Link>
             <Link href="/events" className="hover:text-emerald-200 transition-colors">
-              Corporate/Club Events
+              Events
             </Link>
             <Link href="/about" className="hover:text-emerald-200 transition-colors">
               About the FWL Team
@@ -56,35 +55,6 @@ export default function Home() {
                 players. As certified Mah Jongg instructors, we have helped countless students learn the game while
                 promoting social engagement and strengthening cognitive skills.
               </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-                <Button
-                  size="lg"
-                  className="bg-emerald-700 hover:bg-emerald-800 text-white rounded-full px-8 py-6 text-lg"
-                  asChild
-                >
-                  <Link href="mailto:amylukas@fourwindslounge.com" className="flex items-center gap-2">
-                    <Mail className="h-5 w-5" />
-                    Contact Us!
-                  </Link>
-                </Button>
-
-                <Button
-                  size="lg"
-                  className="bg-emerald-700 hover:bg-emerald-800 text-white rounded-full px-8 py-6 text-lg"
-                  asChild
-                >
-                  <Link
-                    href="https://www.venmo.com/u/Fourwindslounge"
-                    className="flex items-center gap-2"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <CreditCard className="h-5 w-5" />
-                    Registration Link
-                  </Link>
-                </Button>
-              </div>
             </div>
           </section>
 
