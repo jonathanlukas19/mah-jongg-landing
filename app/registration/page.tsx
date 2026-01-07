@@ -47,7 +47,7 @@ export default function Registration() {
             <p>
               Already have your class arranged and a start date has been established? Great! Please click{" "}
               <Link
-                href="https://www.venmo.com/u/Fourwindslounge"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfFMjS5vwMmI1xV2lEqtR863OOjnFmbB-ab1yiYEKP2UYhNcQ/viewform?usp=sharing&ouid=103279560988399266284"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
@@ -58,9 +58,9 @@ export default function Registration() {
             </p>
 
             <p>
-              If you haven't arranged a class date and time, but are interested learning Mah Jongg, please click{" "}
+              If you haven't arranged a class date and time, but are interested in learning Mah Jongg, please click{" "}
               <Link
-                href="mailto:amylukas@fourwindslounge.com"
+                href="mailto:info@fourwindslounge.com"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
               >
                 here
