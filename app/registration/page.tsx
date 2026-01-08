@@ -58,14 +58,14 @@ export default function Registration() {
             </p>
 
             <p>
-              If you haven't arranged a class date and time, but are interested in learning Mah Jongg, please click{" "}
+              If you haven't arranged a class date and time but are interested in learning Mah Jongg, please click{" "}
               <Link
                 href="mailto:info@fourwindslounge.com"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
               >
                 here
               </Link>{" "}
-              to message Amy Lukas or Kitty Gaenslen. We'd love to work with you!
+              to message our team.
             </p>
           </div>
         </main>
