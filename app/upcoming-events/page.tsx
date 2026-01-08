@@ -4,8 +4,8 @@ export default function UpcomingEvents() {
   return (
     <div className="min-h-screen bg-[#F8F0DB]">
       <nav className="bg-emerald-800 text-white sticky top-0 z-50 shadow-md">
-        <div className="container mx-auto px-4 py-4 max-w-5xl">
-          <div className="flex justify-center gap-6 flex-wrap">
+        <div className="container mx-auto px-4 py-3 max-w-6xl">
+          <div className="flex justify-center gap-3 md:gap-6 flex-wrap text-sm">
             <Link href="/small-group-lessons" className="hover:text-emerald-200 transition-colors">
               Small Group Lessons
             </Link>
