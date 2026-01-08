@@ -19,7 +19,7 @@ export default function SmallGroupLessons() {
               Gift Certificates
             </Link>
             <Link href="/events" className="hover:text-emerald-200 transition-colors">
-              Corporate/Club Events
+              Events
             </Link>
             <Link href="/about" className="hover:text-emerald-200 transition-colors">
               About the FWL Team
@@ -58,7 +58,7 @@ export default function SmallGroupLessons() {
               </p>
               <p>
                 Kitty and Amy, co-founders of the Four Winds Lounge, began teaching Mah Jongg informally to family and
-                friends years ago. With a deep understanding of the game drawn from their combined 18 years of
+                friends years ago. With a deep understanding of the game drawn from their combined 16 years of
                 experience playing Mah Jongg, Kitty and Amy went on to become certified Mah Jongg instructors to ensure
                 students learn the intricacies of the game quickly and thoroughly. Our eight-hour curriculum is built to
                 provide a solid understanding of all facets of this centuries-old game. Four Winds Lounge can also
@@ -83,6 +83,16 @@ export default function SmallGroupLessons() {
                 The Four Winds Lounge team will provide all necessary supplies (mah jongg sets, table mats, shufflers,
                 racks). You would only need to provide playing tables (4 players at each), chairs and a quiet space for
                 the sessions to be held at your home or venue.
+              </p>
+              <p>
+                Have you gathered a group of students OR would you like us to match you with an upcoming class?{" "}
+                <Link
+                  href="mailto:info@fourwindslounge.com"
+                  className="text-emerald-700 hover:text-emerald-800 underline"
+                >
+                  Contact us
+                </Link>{" "}
+                to compare calendars!
               </p>
             </div>
           </section>
