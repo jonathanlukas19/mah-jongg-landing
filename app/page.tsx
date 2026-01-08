@@ -19,8 +19,11 @@ export default function Home() {
             <Link href="/gift-certificates" className="hover:text-emerald-200 transition-colors">
               Gift Certificates
             </Link>
+            <Link href="/upcoming-events" className="hover:text-emerald-200 transition-colors">
+              Upcoming Events
+            </Link>
             <Link href="/events" className="hover:text-emerald-200 transition-colors">
-              Events
+              Corporate & Club Customers
             </Link>
             <Link href="/about" className="hover:text-emerald-200 transition-colors">
               About the FWL Team
@@ -51,7 +54,7 @@ export default function Home() {
             <div className="max-w-2xl mx-auto">
               <p className="text-lg md:text-xl text-gray-900 mb-8">
                 Learn the game that is sweeping the nation! Connect with us for lessons and events throughout Wisconsin
-                and Northern IL. We have more than 19 years of combined experience in training beginners to experienced
+                and Northern IL. We have more than 16 years of combined experience in training beginners to experienced
                 players. As certified Mah Jongg instructors, we have helped countless students learn the game while
                 promoting social engagement and strengthening cognitive skills.
               </p>
@@ -98,3 +101,4 @@ export default function Home() {
     </div>
   )
 }
+
