@@ -4,11 +4,8 @@ export default function GiftCertificates() {
   return (
     <div className="min-h-screen bg-[#F8F0DB]">
       <nav className="bg-emerald-800 text-white sticky top-0 z-50 shadow-md">
-        <div className="container mx-auto px-4 py-4 max-w-5xl">
-          <div className="flex justify-center gap-6 flex-wrap">
-            <Link href="/" className="hover:text-emerald-200 transition-colors">
-              Home
-            </Link>
+        <div className="container mx-auto px-4 py-3 max-w-6xl">
+          <div className="flex justify-center gap-3 md:gap-6 flex-wrap text-sm">
             <Link href="/small-group-lessons" className="hover:text-emerald-200 transition-colors">
               Small Group Lessons
             </Link>
@@ -21,8 +18,11 @@ export default function GiftCertificates() {
             <Link href="/gift-certificates" className="hover:text-emerald-200 transition-colors">
               Gift Certificates
             </Link>
+            <Link href="/upcoming-events" className="hover:text-emerald-200 transition-colors">
+              Upcoming Events
+            </Link>
             <Link href="/events" className="hover:text-emerald-200 transition-colors">
-              Events
+              Corporate & Club Customers
             </Link>
             <Link href="/about" className="hover:text-emerald-200 transition-colors">
               About the FWL Team
