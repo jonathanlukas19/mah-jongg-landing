@@ -34,12 +34,13 @@ export default function Merchandise() {
             <img
               src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
-              className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-4 cursor-pointer"
+              className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 cursor-pointer"
               style={{
                 mixBlendMode: "multiply",
               }}
             />
           </Link>
+          <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800">Merchandise</h1>
         </header>
 
         <main className="prose prose-lg max-w-none">
