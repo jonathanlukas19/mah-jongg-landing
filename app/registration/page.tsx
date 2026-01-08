@@ -34,12 +34,13 @@ export default function Registration() {
             <img
               src="/four-winds-logo.png"
               alt="Four Winds Lounge Logo"
-              className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-4 cursor-pointer"
+              className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 cursor-pointer"
               style={{
                 mixBlendMode: "multiply",
               }}
             />
           </Link>
+          <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-800">Registration</h1>
         </header>
 
         <main className="max-w-3xl mx-auto">
@@ -47,7 +48,7 @@ export default function Registration() {
             <p>
               Already have your class arranged and a start date has been established? Great! Please click{" "}
               <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfFMjS5vwMmI1xV2lEqtR863OOjnFmbB-ab1yiYEKP2UYhNcQ/viewform?usp=sharing&ouid=103279560988399266284"
+                href="https://www.venmo.com/u/Fourwindslounge"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
@@ -58,14 +59,14 @@ export default function Registration() {
             </p>
 
             <p>
-              If you haven't arranged a class date and time but are interested in learning Mah Jongg, please click{" "}
+              If you haven't arranged a class date and time, but are interested learning Mah Jongg, please click{" "}
               <Link
-                href="mailto:info@fourwindslounge.com"
+                href="mailto:amylukas@fourwindslounge.com"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
               >
                 here
               </Link>{" "}
-              to message our team.
+              to message Amy Lukas or Kitty Gaenslen. We'd love to work with you!
             </p>
           </div>
         </main>
@@ -73,3 +74,4 @@ export default function Registration() {
     </div>
   )
 }
+
