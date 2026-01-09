@@ -50,7 +50,7 @@ export default function About() {
             <img
               src="/IMG_8150.jpeg"
               alt="Kitty and Amy playing Mah Jongg"
-              className="rounded-lg shadow-lg max-w-full h-auto"
+              className="rounded-lg shadow-lg max-w-md md:max-w-lg h-auto mx-auto"
             />
           </div>
         </header>
