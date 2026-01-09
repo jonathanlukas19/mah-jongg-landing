@@ -48,7 +48,7 @@ export default function About() {
           {/* Team Photo */}
           <div className="mb-8">
             <img
-              src="/images/img-8150.jpeg"
+              src="/IMG_8150.jpeg"
               alt="Kitty and Amy playing Mah Jongg"
               className="rounded-lg shadow-lg max-w-full h-auto"
             />
