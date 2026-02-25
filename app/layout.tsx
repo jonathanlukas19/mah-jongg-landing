@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "Four Winds Lounge | Mah Jongg Socials",
   description: "Bringing people together through Mah Jongg — one tile at a time.",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({

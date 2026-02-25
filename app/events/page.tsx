@@ -60,7 +60,7 @@ export default function CorporateClubCustomers() {
             <p>
               Ready to plan YOUR unique Mah Jongg event?{" "}
               <Link
-                href="mailto:info@fourwindslounge.com"
+                href="mailto:amylukas@fourwindslounge.com"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
               >
                 Reach out today!
