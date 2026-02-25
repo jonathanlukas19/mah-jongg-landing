@@ -67,6 +67,18 @@ export default function UpcomingEvents() {
               out. Come out and enjoy the picturesque atmosphere of Blackwolf Run in the wintertime and cozy up with a
               few games of Mahj!
             </p>
+
+            <p>
+              Join us for our "Introduction to Mah Jongg lessons at Wonderland Books."  Experience our introductory lessons in a beautiful, neighborhood setting -- no need to prep your home for hosting, no private club dues.  Classes begin on Monday, April 27th from 12:30-2:30.  Register{" "}
+              <Link
+                href="https://forms.gle/nDecXGBpRqSfnZe4A"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
+              >
+                here
+              </Link>
+            </p>
           </div>
         </main>
       </div>
