@@ -74,7 +74,7 @@ export default function SmallGroupLessons() {
           <section className="mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-emerald-800 mb-6">Pricing</h2>
             <div className="text-gray-900 space-y-4 text-base md:text-lg leading-relaxed">
-              <p className="font-bold text-xl">$165 per person – MAXIMUM 16 participants per session*</p>
+              <p className="font-bold text-xl">$185 per person – MAXIMUM 16 participants per session*</p>
               <p className="font-semibold">Includes:</p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Four 2-hour sessions (classes held once a week for four weeks)</li>
