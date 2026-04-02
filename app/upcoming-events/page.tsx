@@ -49,26 +49,6 @@ export default function UpcomingEvents() {
         <main className="max-w-3xl mx-auto">
           <div className="text-gray-900 space-y-8 text-base md:text-lg leading-relaxed">
             <p>
-              Join us every Thursday in January and February from 4-7 at Frozen Fairways in Kohler, WI.{" "}
-              <Link
-                href="https://www.kohlerwisconsin.com/explore-more/activities-and-events/frozen-fairways?nck=8448091801&id=pla_goo_dk_promo-frozen-fairways_2025_21722984314_f03&gclsrc=aw.ds&&id=pla_goo_dk_promo-spa_2024_21722984314_f03&gclsrc=aw.ds&gad_source=1&gad_campaignid=21719100479&gbraid=0AAAAADEmHoSxFBl0Bl4GA9WFJMYKsPqz-"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
-              >
-                (link here)
-              </Link>
-            </p>
-
-            <p>
-              Open Play for experienced players (sets/cards on site for your use), Guided Play for newer players and Mah
-              Jongg Fundamentals for those looking to learn. Entrance to Frozen Fairways is $15 per person (free to
-              registered guests of the hotel) and allows you to participate in all sorts of Winter Fun both indoors and
-              out. Come out and enjoy the picturesque atmosphere of Blackwolf Run in the wintertime and cozy up with a
-              few games of Mahj!
-            </p>
-
-            <p>
               Join us for our "Introduction to Mah Jongg lessons at Wonderland Books."  Experience our introductory lessons in a beautiful, neighborhood setting -- no need to prep your home for hosting, no private club dues.  Classes begin on Monday, April 27th from 12:30-2:30.  Register{" "}
               <Link
                 href="https://forms.gle/nDecXGBpRqSfnZe4A"
