@@ -47,17 +47,42 @@ export default function UpcomingEvents() {
         </header>
 
         <main className="max-w-3xl mx-auto">
-          <div className="text-gray-900 space-y-8 text-base md:text-lg leading-relaxed">
+          <div className="text-gray-900 space-y-2 text-base md:text-lg leading-relaxed">
             <p>
-              Join us for our "Introduction to Mah Jongg lessons at Wonderland Bookshop."  Experience our introductory lessons in a beautiful, neighborhood setting -- no need to prep your home for hosting, no private club dues.  Classes begin on Monday, April 27th from 12:30-2:30.  Register{" "}
+              Join Four Winds Lounge in support of <strong>Wisconsin Breast Cancer Showhouse</strong>
+            </p>
+
+            <p>
+              A tablescape event featuring creative, one-of-a-kind designs from the area's leading interior designers.
+            </p>
+
+            <p>
+              May 29th Pfister Hotel Grand Ballroom
+            </p>
+
+            <p>
+              One Day – Two Fabulous Events
+            </p>
+
+            <p>
+              1:00-4:00 Styled Settings
+            </p>
+
+            <p>
+              6:00 – 10:00 An Evening at Styled Settings
+            </p>
+
+            <p>
+              Click{" "}
               <Link
-                href="https://forms.gle/nDecXGBpRqSfnZe4A"
+                href="https://breastcancershowhouse.org/styled-settings-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
               >
-                here
+                link
               </Link>
+              {" "}to purchase tickets!
             </p>
           </div>
         </main>
