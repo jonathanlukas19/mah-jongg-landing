@@ -47,17 +47,9 @@ export default function UpcomingEvents() {
         </header>
 
         <main className="max-w-3xl mx-auto">
-          <div className="text-gray-900 space-y-8 text-base md:text-lg leading-relaxed">
+          <div className="text-gray-900 space-y-2 text-base md:text-lg leading-relaxed">
             <p>
-              Open Play for experienced players (sets/cards on site for your use), Guided Play for newer players and Mah
-              Jongg Fundamentals for those looking to learn. Entrance to Frozen Fairways is $15 per person (free to
-              registered guests of the hotel) and allows you to participate in all sorts of Winter Fun both indoors and
-              out. Come out and enjoy the picturesque atmosphere of Blackwolf Run in the wintertime and cozy up with a
-              few games of Mahj!
-            </p>
-
-            <p>
-              Join Four Winds Lounge in support of Wisconsin Breast Cancer Showhouse
+              Join Four Winds Lounge in support of <strong>Wisconsin Breast Cancer Showhouse</strong>
             </p>
 
             <p>
