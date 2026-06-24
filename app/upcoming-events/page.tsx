@@ -47,43 +47,8 @@ export default function UpcomingEvents() {
         </header>
 
         <main className="max-w-3xl mx-auto">
-          <div className="text-gray-900 space-y-2 text-base md:text-lg leading-relaxed">
-            <p>
-              Join Four Winds Lounge in support of <strong>Wisconsin Breast Cancer Showhouse</strong>
-            </p>
-
-            <p>
-              A tablescape event featuring creative, one-of-a-kind designs from the area's leading interior designers.
-            </p>
-
-            <p>
-              May 29th Pfister Hotel Grand Ballroom
-            </p>
-
-            <p>
-              One Day – Two Fabulous Events
-            </p>
-
-            <p>
-              1:00-4:00 Styled Settings
-            </p>
-
-            <p>
-              6:00 – 10:00 An Evening at Styled Settings
-            </p>
-
-            <p>
-              Click{" "}
-              <Link
-                href="https://breastcancershowhouse.org/styled-settings-2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-emerald-700 hover:text-emerald-800 underline font-semibold"
-              >
-                link
-              </Link>
-              {" "}to purchase tickets!
-            </p>
+          <div className="text-gray-900 text-center text-xl md:text-2xl leading-relaxed">
+            <p>Coming Soon!</p>
           </div>
         </main>
       </div>
