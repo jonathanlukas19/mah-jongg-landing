@@ -47,9 +47,37 @@ export default function UpcomingEvents() {
         </header>
 
         <main className="max-w-3xl mx-auto">
-          <div className="text-gray-900 text-center text-xl md:text-2xl leading-relaxed">
-            <p>Coming Soon!</p>
-          </div>
+          <article className="rounded-2xl border border-emerald-900/10 bg-white/80 p-6 shadow-lg md:p-10">
+            <div className="mb-8 text-center">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">
+                October 22 · 6:00–9:00 PM
+              </p>
+              <h2 className="text-3xl font-serif font-bold text-emerald-800 md:text-4xl">Women&apos;s Night Out</h2>
+              <p className="mt-3 text-lg font-medium text-gray-800">The ARGO in Whitefish Bay</p>
+            </div>
+
+            <div className="space-y-5 text-base leading-relaxed text-gray-900 md:text-lg">
+              <p>
+                Real Women&apos;s Collective will be hosting a presentation and panel discussion for women about
+                Peri/Menopause, GLPs, Pelvic Floor and Bladder Health and so much more!
+              </p>
+              <p>
+                Four Winds Lounge will be present as a vendor and is donating a Mah Jongg playing mat.
+              </p>
+            </div>
+
+            <div className="mt-8 border-t border-emerald-900/10 pt-8 text-center">
+              <p className="mb-4 text-gray-800">To register, click the link here:</p>
+              <a
+                href="https://www.eventbrite.com/e/womens-night-out-tickets-1993797812930?utm_experiment=test_share_listing&aff=ebdsshios"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-full bg-emerald-800 px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-800 focus-visible:ring-offset-2"
+              >
+                Register on Eventbrite
+              </a>
+            </div>
+          </article>
         </main>
       </div>
     </div>
