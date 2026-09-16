@@ -41,7 +41,6 @@ export default function UpcomingEvents() {
               style={{ mixBlendMode: "multiply" }}
             />
           </Link>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">Gather around the table</p>
           <h1 className="font-serif text-4xl font-bold text-emerald-800 md:text-6xl">Upcoming Events</h1>
           <p className="mt-5 text-base leading-7 text-emerald-950/70 md:text-lg">
             Meet new players, sharpen your game, and enjoy the social side of Mah Jongg with Four Winds Lounge.
