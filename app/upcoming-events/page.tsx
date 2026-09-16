@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, CalendarDays, Mail } from "lucide-react"
+import { CalendarDays, ExternalLink } from "lucide-react"
 
 const navigation = [
   ["Small Group Lessons", "/small-group-lessons"],
@@ -54,22 +54,28 @@ export default function UpcomingEvents() {
               <div className="flex min-h-56 items-center justify-center bg-emerald-800 p-8 text-center text-[#F8F0DB] md:min-h-full">
                 <div>
                   <CalendarDays className="mx-auto mb-4 h-10 w-10 stroke-1 text-emerald-200" aria-hidden="true" />
-                  <p className="font-serif text-3xl">New gatherings are on the way</p>
+                  <p className="font-serif text-3xl">Women&apos;s Night Out</p>
+                  <p className="mt-3 text-sm font-semibold uppercase tracking-[0.18em] text-emerald-200">October 22 · 6:00–9:00 PM</p>
                 </div>
               </div>
               <div className="p-8 md:p-10">
-                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Stay in the loop</p>
-                <h2 className="font-serif text-3xl font-bold text-emerald-800">Our next event is coming soon.</h2>
+                <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Save the date</p>
+                <h2 className="font-serif text-3xl font-bold text-emerald-800">Real Women&apos;s Collective presents Women&apos;s Night Out</h2>
+                <p className="mt-4 font-semibold text-emerald-950">The ARGO in Whitefish Bay</p>
                 <p className="mt-4 leading-7 text-emerald-950/70">
-                  We&apos;re planning our next opportunity to play, learn, and connect. Check back here for dates, locations, and registration details.
+                  Real Women&apos;s Collective will be hosting a presentation and panel discussion for women about Peri/Menopause, GLPs, Pelvic Floor and Bladder Health, and so much more!
+                </p>
+                <p className="mt-4 leading-7 text-emerald-950/70">
+                  Four Winds Lounge will be present as a vendor and is donating a Mah Jongg playing mat.
                 </p>
                 <Link
-                  href="mailto:info@fourwindslounge.com?subject=Upcoming%20events"
+                  href="https://www.eventbrite.com/e/womens-night-out-tickets-1993797812930?utm_experiment=test_share_listing&aff=ebdsshios"
+                  target="_blank"
+                  rel="noreferrer"
                   className="mt-7 inline-flex items-center gap-2 rounded-full bg-emerald-800 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700 focus-visible:ring-offset-2"
                 >
-                  <Mail className="h-4 w-4" aria-hidden="true" />
-                  Ask about upcoming events
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  Register for the event
+                  <ExternalLink className="h-4 w-4" aria-hidden="true" />
                 </Link>
               </div>
             </div>
