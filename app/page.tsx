@@ -61,6 +61,13 @@ export default function Home() {
             </div>
           </section>
 
+          <section className="text-center mb-16">
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-2">
+              Come see us at the Lounge!
+            </h2>
+            <p className="text-lg md:text-xl text-gray-700">5710 N Centerpark Way, Bayshore Mall</p>
+          </section>
+
           <section className="text-center">
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-emerald-800 mb-6">
               Follow us on social media!
