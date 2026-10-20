@@ -10,9 +10,9 @@ export default function Home() {
             <Link href="/small-group-lessons" className="hover:text-emerald-200 transition-colors">
               Small Group Lessons
             </Link>
-            <Link href="/registration" className="hover:text-emerald-200 transition-colors">
-              Registration
-            </Link>
+<a href="https://fourwindslounge.mahjpass.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-200 transition-colors">
+            Registration
+          </a>
             <Link href="/merchandise" className="hover:text-emerald-200 transition-colors">
               Merchandise
             </Link>

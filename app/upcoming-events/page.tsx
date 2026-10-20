@@ -3,7 +3,7 @@ import { CalendarDays, ExternalLink } from "lucide-react"
 
 const navigation = [
   ["Small Group Lessons", "/small-group-lessons"],
-  ["Registration", "/registration"],
+  ["Registration", "https://fourwindslounge.mahjpass.com"],
   ["Merchandise", "/merchandise"],
   ["Gift Certificates", "/gift-certificates"],
   ["Upcoming Events", "/upcoming-events"],
@@ -17,16 +17,25 @@ export default function UpcomingEvents() {
       <nav className="sticky top-0 z-50 border-b border-emerald-700/30 bg-emerald-800 text-white shadow-md">
         <div className="container mx-auto flex max-w-6xl justify-center px-4 py-3">
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm">
-            {navigation.map(([label, href]) => (
-              <Link
-                key={href}
-                href={href}
-                className={href === "/upcoming-events" ? "font-semibold text-emerald-100" : "text-white/85 transition-colors hover:text-emerald-200"}
-                aria-current={href === "/upcoming-events" ? "page" : undefined}
-              >
-                {label}
-              </Link>
-            ))}
+            {navigation.map(([label, href]) => {
+              const className = href === "/upcoming-events" ? "font-semibold text-emerald-100" : "text-white/85 transition-colors hover:text-emerald-200"
+              const isExternal = href.startsWith("http")
+
+              return isExternal ? (
+                <a key={href} href={href} target="_blank" rel="noopener noreferrer" className={className}>
+                  {label}
+                </a>
+              ) : (
+                <Link
+                  key={href}
+                  href={href}
+                  className={className}
+                  aria-current={href === "/upcoming-events" ? "page" : undefined}
+                >
+                  {label}
+                </Link>
+              )
+            })}
           </div>
         </div>
       </nav>
