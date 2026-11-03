@@ -2,7 +2,6 @@ import type React from "react"
 import "@/app/globals.css"
 import { Inter, Playfair_Display } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import { StorefrontBanner } from "@/components/storefront-banner"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,7 +28,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <StorefrontBanner />
           {children}
         </ThemeProvider>
       </body>
