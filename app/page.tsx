@@ -35,37 +35,64 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 md:py-16 max-w-5xl">
         <header className="flex flex-col items-center text-center mb-12">
           <section
-            aria-labelledby="lounge-hours-heading"
+            aria-labelledby="now-open-heading"
             className="mb-8 w-full max-w-3xl rounded-2xl border border-emerald-800/20 bg-[#fffdf6] px-5 py-6 shadow-sm sm:px-8"
           >
-            <h2 id="lounge-hours-heading" className="font-serif text-2xl font-bold text-emerald-800 sm:text-3xl">
-              Lounge Hours
+            <h2 id="now-open-heading" className="font-serif text-3xl font-bold text-emerald-800 sm:text-4xl">
+              Now Open!
             </h2>
             <p className="mt-1 text-sm font-semibold uppercase tracking-[0.16em] text-emerald-700">
               Visit us at Bayshore
             </p>
-            <dl className="mx-auto mt-4 grid max-w-xl grid-cols-1 gap-x-10 sm:grid-cols-2">
-              <div className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
-                <dt className="font-semibold text-emerald-900">Wednesday</dt>
-                <dd className="text-gray-700">12–8 pm</dd>
-              </div>
-              <div className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
-                <dt className="font-semibold text-emerald-900">Thursday</dt>
-                <dd className="text-gray-700">12–8 pm</dd>
-              </div>
-              <div className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
-                <dt className="font-semibold text-emerald-900">Friday</dt>
-                <dd className="text-gray-700">10 am–6 pm</dd>
-              </div>
-              <div className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
-                <dt className="font-semibold text-emerald-900">Saturday</dt>
-                <dd className="text-gray-700">10 am–3 pm</dd>
-              </div>
-              <div className="flex items-center justify-between gap-4 py-2.5 text-left text-base sm:text-lg">
-                <dt className="font-semibold text-emerald-900">Sunday, Monday &amp; Tuesday</dt>
-                <dd className="font-semibold text-emerald-700">Closed</dd>
-              </div>
-            </dl>
+            <h3 className="mt-5 text-xs font-semibold uppercase tracking-[0.16em] text-emerald-700">
+              Lounge Hours
+            </h3>
+            <ul className="mx-auto mt-2 grid max-w-2xl grid-cols-1 gap-x-10 md:grid-cols-2">
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Sunday</span>
+                <span className="font-semibold text-emerald-700">Closed</span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Monday</span>
+                <span className="font-semibold text-emerald-700">Closed</span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Tuesday</span>
+                <span className="font-semibold text-emerald-700">Closed</span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Wednesday</span>
+                <span className="text-gray-700">
+                  <time dateTime="12:00">12:00 PM</time>
+                  <span aria-hidden="true"> – </span>
+                  <time dateTime="20:00">8:00 PM</time>
+                </span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Thursday</span>
+                <span className="text-gray-700">
+                  <time dateTime="12:00">12:00 PM</time>
+                  <span aria-hidden="true"> – </span>
+                  <time dateTime="20:00">8:00 PM</time>
+                </span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Friday</span>
+                <span className="text-gray-700">
+                  <time dateTime="10:00">10:00 AM</time>
+                  <span aria-hidden="true"> – </span>
+                  <time dateTime="18:00">6:00 PM</time>
+                </span>
+              </li>
+              <li className="flex items-center justify-between gap-4 border-b border-emerald-100 py-2.5 text-left text-base sm:text-lg">
+                <span className="font-semibold text-emerald-900">Saturday</span>
+                <span className="text-gray-700">
+                  <time dateTime="10:00">10:00 AM</time>
+                  <span aria-hidden="true"> – </span>
+                  <time dateTime="15:00">3:00 PM</time>
+                </span>
+              </li>
+            </ul>
             <div className="mt-4 flex flex-col items-center justify-center gap-1 border-t border-emerald-100 pt-4 sm:flex-row sm:gap-2">
               <MapPin aria-hidden="true" className="h-5 w-5 shrink-0 text-emerald-700" />
               <address className="text-center text-base font-medium not-italic text-gray-700 sm:text-left">
